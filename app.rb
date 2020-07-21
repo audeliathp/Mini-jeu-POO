@@ -6,8 +6,8 @@ require_relative 'lib/game'
 require_relative 'lib/player'
 
 #Create 2 players
-player1 = Player.new('José')
-player2 = Player.new('Antoine')
+player1 = Player.new('Zangiev')
+player2 = Player.new('Chun-Li')
 
 
 while player1.life_points > 0 && player2.life_points > 0
